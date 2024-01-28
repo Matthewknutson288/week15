@@ -1,0 +1,41 @@
+body {
+  background-color: goldenrod;
+  color: black;
+  text-align: center;
+  border: solid;
+  border-color: black;
+  border-width: 10px;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: darkolivegreen;
+  color: black;
+}
+
+.centered-box {
+  border: 2px solid black;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: 0 auto; 
+}
+
+p {
+  border-style: solid;
+  border-color: green;
+  border-radius: 50px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+h2 {
+  border-style: solid;
+  border-color: green;
+  font-size: 40px;
+  border-radius: 50px;
+}
